@@ -1,0 +1,105 @@
+body{
+    background:#222;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+.container{
+    box-sizing: inherit;
+    background: #444 ;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    filter: drop-shadow(0px 0px 4px black);
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+}
+.photo{
+    box-sizing: inherit;
+    height: 100%;
+}
+.arrow{
+    margin: 30px;
+}
+.arrow:hover{
+    opacity: 0.7;
+}
+.right{
+    transform: rotate(0.5turn);
+}
+.imageDesc{
+    position: absolute;
+    box-sizing: inherit;
+    width: 100%;
+    padding: 15px;
+    padding-left: 30px;
+    bottom: 0px;
+    background: #bbb;
+    opacity: 0.8;
+    color: #222;
+    filter: drop-shadow(0px -3px 3px #222);
+}
+
+h3, p{
+    text-align: left;
+}
+#thumbnails{
+    box-sizing: inherit;
+    width: 1000px;
+    margin: auto;
+    padding: 15px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.thumbnail{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin: 10px;
+    margin-bottom: 0px;
+    border: 5px solid #444;
+    border-radius: 5%;
+    filter: drop-shadow(0px 0px 4px black);
+}
+.thumb{
+    object-fit: cover;
+    width: 80px;
+}
+
+#titles{
+    box-sizing: inherit;
+    width: 1000px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    /*text-align: center;*/
+}
+
+.titlebox{
+    /*box-sizing: inherit;*/
+    width: 60px;
+    height: 15px;
+    margin: 10px;
+    margin-top: 0px;
+    /*background: pink;*/
+    text-align: center;
+    
+}
+.title{
+    
+    margin: 0px;
+    padding: 0px;
+    color: #ddd;
+    font-size: 12px;
+}
